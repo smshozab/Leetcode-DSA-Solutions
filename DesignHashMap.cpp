@@ -1,7 +1,8 @@
 class MyHashMap {public:
    vector<int>hm;
+   int size;
    MyHashMap() {
-       int size=1000001;
+       size=1e6+1;
        // for(int i=0;i<9999999;i++)
        //
     hm.push_back(-1);
